@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf04764b-cc11-4af4-b39b-0354b8af218a" name="Default Changelist" comment="" />
+    <list default="true" id="cf04764b-cc11-4af4-b39b-0354b8af218a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/chuong1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session6/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session6/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session6/login_process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session6/process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session6/prompt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session6/testjs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/session6/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,14 +25,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cqbrCl4IkMVBcWMrgEuprRM9si" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\C0520K1_Demo\html" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -32,6 +57,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0520K1_Demo/session6/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/session6/index.js" working-dir="$PROJECT_DIR$/session6">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -42,11 +81,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591259266369</updated>
-      <workItem from="1591259267652" duration="272000" />
+      <workItem from="1591259267652" duration="3747000" />
+      <workItem from="1591322875757" duration="5607000" />
+      <workItem from="1591590784118" duration="6423000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/session6/index.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/session6/index.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

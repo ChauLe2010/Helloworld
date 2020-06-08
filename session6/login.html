@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .formlogin{
+            width:400px;
+        }
+    </style>
+
+</head>
+<body>
+<div  class="formlogin">
+<form onsubmit="return validateForm()">
+    <fieldset>
+        <legend>Login</legend>
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" value></td><td id="usererr"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"><span id="passerr"></span> </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Login"></td>
+<!--                <td><input type="button" value="Login" onclick="validateForm();"></td>-->
+                <td><input type="reset" value="Cancel"></td>
+            </tr>
+
+
+        </table>
+    </fieldset>
+</form>
+</div>
+<script src="login_process.js"></script>
+</body>
+</html>
