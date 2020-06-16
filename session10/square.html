@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function isSquare(value){
+        //if(Math.sqrt(value)%1==0)
+
+            return true;
+        return false;
+    }
+
+    function display(quantity){
+        let count=0;
+        let value=1;
+        while(count<quantity){
+            if(isSquare(value)==true){
+                count++;
+                document.write(value + " ");
+            }
+            value++;
+        }
+    }
+
+    display(100);
+</script>
 </body>
 </html>

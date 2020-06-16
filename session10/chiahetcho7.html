@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
+    <style>
+        .abc{font-style: }
+    </style>
 </head>
 <body>
-$END$
+<script>
+    function isPrime(value){
+        if(value<2)
+            return false;
+        for(let i=2;i<=Math.sqrt(value);i++){
+            if(value%i==0){
+                return false;
+            }
+        }
+        return true;
+    }
+    function display(quantity){
+        let count=0;
+        let value=1;
+        while(count<quantity){
+            if(isPrime(value)==true){
+                count++;
+                document.write(value + " ");
+            }
+            value++;
+        }
+    }
+
+    display(100);
+</script>
+
 </body>
 </html>

@@ -5,6 +5,75 @@
     <title>Title</title>
 </head>
 <body>
+<script>
+
+    function inputArray(a){
+        let sizeArr;
+        do{
+            sizeArr=+prompt("Nhap kich thuoc mang: ");
+        }while(sizeArr<=0);
+
+        for(let i=0;i<sizeArr;i++){
+            a[i]=+prompt("Nhap phan tu thu "+i+" : ");
+        }
+    }
+    function displayArray(a){
+        for(i=0;i<a.length;i++){
+            document.write(a[i] +" ");
+        }
+    }
+    function sumValues(a){
+        let sum=0;
+        for(i=0;i<a.length;i++){
+            sum+=a[i];
+        }
+        return sum;
+    }
+    function maxValue(a){
+        let max=a[0];
+        for(let i=1;i<a.length;i++){
+            if(max<a[i]){
+                max=a[i];
+            }
+        }
+        return max;
+    }
+    function maxamValue(a){
+        let maxam=0;
+        for(i=0;i<a.length;i++){
+            if(a[i]<0){
+                maxam=a[i];
+                break;
+            }
+        }
+        for(;i<a.length;i++){
+            if(a[i]<0&&maxam<a[i]){
+                maxam=a[i];
+            }
+        }
+        return maxam;
+    }
+
+
+
+
+    let arr=new Array();
+    inputArray(arr);
+    displayArray(arr);
+    document.write("<br>Tong cac phan tu trong mang: "+sumValues(arr));
+    document.write("<br> Phan tu lon nhat trong mang: "+maxValue(arr));
+    maxam=maxamValue(arr);
+    if(maxam==0)
+        document.write("<br>Mang ko co so am! ")
+    else
+        document.write("<br> Phan tu am lon nhat trong mang: "+maxam);
+
+
+
+
+
+
+</script>
 
 </body>
 </html>

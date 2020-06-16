@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+    function inputArr(a){
+        let rows=4;
+        let cols=5;
+        for(let i=0;i<rows;i++){
+            a[i]=[];
+            for(let j=0;j<cols;j++){
+                a[i][j]=Math.floor(Math.random()*100);
+            }
+        }
+    }
+    function  displayArr(a) {
+        for(let i=0;i<a.length;i++){
+            for(let j=0;j<a[i].length;j++){
+                document.write(a[i][j]+" ");
+            }
+            document.write("<br>");
+        }
+    }
+    let array=[];
+    inputArr(array);
+    displayArr(array);
+</script>
 </body>
 </html>

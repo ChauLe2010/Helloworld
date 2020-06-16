@@ -2,12 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>tính chu vi hình tròn</title>
 </head>
 <body>
-<script>
-    let content=prompt("Nhap gia tri: ");
-    alert("Ban vua nhap: "+content);
-</script>
+<form>
+    <input type="text" id="BK" placeholder="radius">
+    <input type="button" onclick="P();" value="result">
+    <input type="text" id="CV" placeholder="perimeter">
+    <script>
+        function P() {
+            let r = parseFloat(document.getElementById('BK').value);
+
+            const PI = 3.141423534611;
+            let C = (2*r*PI);
+            document.getElementById('CV').value=C;
+        }
+    </script>
+</form>
 </body>
 </html>

@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf04764b-cc11-4af4-b39b-0354b8af218a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/chuong1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session6/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session6/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session6/login_process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session6/process.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session6/prompt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session6/testjs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/session6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chuong1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/session10/chiahetcho7.html" beforeDir="false" afterPath="$PROJECT_DIR$/session10/chiahetcho7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session10/square.html" beforeDir="false" afterPath="$PROJECT_DIR$/session10/square.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session11/array1.html" beforeDir="false" afterPath="$PROJECT_DIR$/session11/array1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session11/array2dim.html" beforeDir="false" afterPath="$PROJECT_DIR$/session11/array2dim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session6/prompt.html" beforeDir="false" afterPath="$PROJECT_DIR$/session6/prompt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session7/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/session7/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session7/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/session7/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session7/condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/session7/condition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session7/variables.html" beforeDir="false" afterPath="$PROJECT_DIR$/session7/variables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session8/doyouloveme.html" beforeDir="false" afterPath="$PROJECT_DIR$/session8/doyouloveme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session8/puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/session8/puzzle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session9/forlong.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/forlong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session9/sao.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/sao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session9/sum10.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/sum10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session9/whiledisplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/whiledisplay.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +43,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +88,14 @@
       <updated>1591259266369</updated>
       <workItem from="1591259267652" duration="3747000" />
       <workItem from="1591322875757" duration="5607000" />
-      <workItem from="1591590784118" duration="6423000" />
+      <workItem from="1591590784118" duration="6950000" />
+      <workItem from="1591692607152" duration="1955000" />
+      <workItem from="1591751435081" duration="2107000" />
+      <workItem from="1591774397381" duration="3532000" />
+      <workItem from="1591862823963" duration="8248000" />
+      <workItem from="1592209694781" duration="3611000" />
+      <workItem from="1592215240757" duration="757000" />
+      <workItem from="1592297740801" duration="4801000" />
     </task>
     <servers />
   </component>
@@ -108,13 +120,11 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/session6/index.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/session6/index.js</url>
           <line>1</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
