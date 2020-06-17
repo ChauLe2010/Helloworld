@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf04764b-cc11-4af4-b39b-0354b8af218a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/session12/TrungDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session12/arrayfunction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session12/functionArrayDemo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/chuong1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/session10/chiahetcho7.html" beforeDir="false" afterPath="$PROJECT_DIR$/session10/chiahetcho7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session10/square.html" beforeDir="false" afterPath="$PROJECT_DIR$/session10/square.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session11/array1.html" beforeDir="false" afterPath="$PROJECT_DIR$/session11/array1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session11/array2dim.html" beforeDir="false" afterPath="$PROJECT_DIR$/session11/array2dim.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session6/prompt.html" beforeDir="false" afterPath="$PROJECT_DIR$/session6/prompt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session7/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/session7/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session7/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/session7/calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session7/condition.html" beforeDir="false" afterPath="$PROJECT_DIR$/session7/condition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session7/variables.html" beforeDir="false" afterPath="$PROJECT_DIR$/session7/variables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session8/doyouloveme.html" beforeDir="false" afterPath="$PROJECT_DIR$/session8/doyouloveme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session8/puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/session8/puzzle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session9/forlong.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/forlong.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session9/sao.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/sao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session9/sum10.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/sum10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session9/whiledisplay.html" beforeDir="false" afterPath="$PROJECT_DIR$/session9/whiledisplay.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +82,8 @@
       <workItem from="1591862823963" duration="8248000" />
       <workItem from="1592209694781" duration="3611000" />
       <workItem from="1592215240757" duration="757000" />
-      <workItem from="1592297740801" duration="4801000" />
+      <workItem from="1592297740801" duration="5320000" />
+      <workItem from="1592385511818" duration="2809000" />
     </task>
     <servers />
   </component>

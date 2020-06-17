@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isExist(value,array){
+        for(let i=0;i<array.length;i++){
+            if(value===array[i]){
+                return i;//true
+            }
+        }
+        return -1;//false
+    }
+    function deleteFirstValue(value,array){
+        let index=isExist(value,array);
+        if(index>=0){
+            for(let i=index;i<array.length;i++){
+                array[i]=array[i+1];
+            }
+            array.length-=1;
+        }
+    }
+    function deleteAllValue(value,array){
+        let index=isExist(value,array);
+        while(index>=0){
+            for(let i=index;i<array.length;i++){
+                array[i]=array[i+1];
+            }
+            array.length-=1;
+            index=isExist(value,array);
+        }
+    }
+
+
+
+
+
+    let numbers=new Array(10,19,20,8,9,10,29,19,19,7);
+    let xValue=7;
+    let index=isExist(xValue,numbers);
+    if(index>=0)
+        document.write("Vi tri dau tien tim thay la: "+index);
+    else
+        document.write("Khong tim thay");
+    // deleteFirstValue(xValue,numbers);
+    // document.write("<br>Mang sau xoa: " + numbers.join(" "));
+    // document.write("<br> Do dai mang hien tai: "+ numbers.length)
+    deleteAllValue(xValue,numbers);
+    document.write("<br>Mang sau xoa tat ca: " + numbers.join(" "));
+    document.write("<br> Do dai mang hien tai: "+ numbers.length)
+</script>
+
+</body>
+</html>

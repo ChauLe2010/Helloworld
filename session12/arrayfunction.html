@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    function isExist(value,array){
+        for(let i=0;i<array.length;i++){
+            if(value===array[i]){
+                return i;
+            }
+        }
+        return -1;
+    }
+    function deleteFirstValue(value,array) {
+        let index=isExist(value,array);
+        if(index>=0){
+            for(let i=index;i<array.length;i++){
+                array[i]=array[i+1];
+            }
+            array.length-=1;
+        }
+
+    }
+    function deleteAllValue(value,array){
+        let index=isExist(value,array);
+        while(index>=0){
+            for(let i=index;i<array.length;i++){
+                array[i]=array[i+1];
+            }
+            array.length-=1;
+            index=isExist(value,array);
+
+        }
+    }
+    let numbers=new Array(10,12,4,8,10,10,5,19,200,88,33,12,3);
+    let xValue=10;
+    let index=isExist(xValue,numbers);
+    if(index<0)
+        document.write("Khong ton tai");
+    else
+        document.write("Phan tu " + xValue + " xuat hien du tien tai vi tri: "+index);
+    deleteFirstValue(xValue,numbers);
+    document.write("<br>Mang sau khi xoa vi tri dau tien tim thay: "+numbers.join(' ') + numbers.length);
+    deleteAllValue(xValue,numbers);
+    document.write("<br>Mang sau khi xoa tat ca cac gia tri tim thay: "+numbers.join(' ')+ numbers.length);
+</script>
+</body>
+</html>
