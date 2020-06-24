@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+<title>Title</title>
+<script src="electric-lamp.js"></script>
+<script src="switch-button.js"></script>
+<script>
+    let electricLamp=new ElectricLamp();
+    let switchButton=new SwitchButton();
+    switchButton.connectToLamp(electricLamp);
+    switchButton.switchOn();
+    document.write("<br>Lamp: ");
+    electricLamp.light();
+    switchButton.switchOff();
+    document.write("<br>Lamp: ");
+    electricLamp.light();
+</script>
+
+</body>
+</html>

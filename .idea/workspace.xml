@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf04764b-cc11-4af4-b39b-0354b8af218a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/session12/TrungDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session12/arrayfunction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session12/functionArrayDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/button-remote-lamp/electric-lamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/button-remote-lamp/electriclamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/button-remote-lamp/switch-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/car.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/flashlamp/battery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/flashlamp/flashlamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/flashlamp/flashlamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/lamp/flashlamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/lamp/lamp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/lamp/lamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sesion14-OOP/prototype/prototype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session13/tictoctoe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session13/tictoctoe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\C0520K1_Demo\sesion14-OOP\Lamp" />
       <recent name="C:\Users\Admin\WebstormProjects\C0520K1_Demo\html" />
     </key>
   </component>
@@ -83,7 +94,9 @@
       <workItem from="1592209694781" duration="3611000" />
       <workItem from="1592215240757" duration="757000" />
       <workItem from="1592297740801" duration="5320000" />
-      <workItem from="1592385511818" duration="2809000" />
+      <workItem from="1592385511818" duration="3675000" />
+      <workItem from="1592467156394" duration="3393000" />
+      <workItem from="1592811565012" duration="12275000" />
     </task>
     <servers />
   </component>

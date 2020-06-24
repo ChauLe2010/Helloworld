@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="battery.js"></script>
+    <script src="flashlamp.js"></script>
+</head>
+<body>
+<script>
+    let battery = new Battery(50);
+   // battery.setEnergy(50);
+
+    let flashLamp = new FlashLamp();
+    flashLamp.setBattery(battery);
+
+    document.write("Pin hien tai: "+flashLamp.getBatteryInfo());
+
+    flashLamp.turnOn();
+    flashLamp.light();
+    document.write("Pin hien tai: "+flashLamp.getBatteryInfo());
+</script>
+</body>
+</html>

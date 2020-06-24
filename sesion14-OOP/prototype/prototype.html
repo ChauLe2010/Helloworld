@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //tạo mẫu khởi tạo
+    function Fruit(){
+    };
+    Fruit.prototype.color = 'RED';
+
+    //tạo đối tượng
+    var apple = new Fruit();
+    //tạo thuộc tính riêng của object
+    apple.name = 'Apple';
+
+    //kiểm tra thuộc tính
+    console.log(apple.hasOwnProperty('color'));  //false
+    console.log(apple.hasOwnProperty('name'));  //true
+    console.log(apple.color);
+    console.log(apple.name);
+    //tạo đối tượng
+    var mango = new Fruit();
+    //tạo thuộc tính riêng của object
+    mango.name = 'Mango';
+    //kiểm tra thuộc tính
+    console.log(mango.color);
+    console.log(mango.name);
+</script>
+</body>
+</html>

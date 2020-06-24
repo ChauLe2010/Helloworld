@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Car = function (name,color,model,weight) {
+
+        this.name=name;
+        this.color=color;
+        this.model=model;
+        this.weight=weight;
+
+        this.start=function(){
+            document.write("Started!");
+        }
+        this.getName=function () {
+            return this.name;
+        }
+
+    }
+    let honda=new Car("Honda","black",2016,1000);
+    document.write("Ten xe: "+honda.getName());
+    honda.name="Mada";
+    document.write("Ten xe: "+honda.name);
+
+    document.write("Mau xe: "+honda.color);
+    document.write("Doi xe: "+honda.model);
+    document.write("Can nang xe: "+honda.weight);
+    honda.start();
+</script>
+</body>
+</html>
